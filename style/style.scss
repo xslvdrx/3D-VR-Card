@@ -54,7 +54,7 @@ body {
 	h2 {
 		position: absolute;
 		top: 0;
-		left: -60px;
+		left: 80px;
 		font-size: 40px;
 		font-weight: 100;
 		transform: translateZ(80px);
@@ -63,24 +63,11 @@ body {
 	span {
 		position: absolute;
 		bottom: 40px;
-		right: 0;
+		left: 40px;
 		text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
 		font-size: 37px;
 		font-weight: 600;
-		transform: translateZ(35px);
-	}
-}
-
-.dribbble {
-	position: fixed;
-	top: 25px;
-	right: 25px;
-
-	& > a {
-		font-size: 12px;
-		text-transform: uppercase;
-		text-decoration: none;
-		color: #ec4989;
+		transform: translateZ(80px);
 	}
 }
 
